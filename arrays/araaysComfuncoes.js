@@ -5,11 +5,20 @@
 // console.log(idades[4])
 // console.log(idades[0])
 
-let frutas = ["Maça", "Pera"]
+// let frutas = ["Maça", "Pera"]
 // frutas.oneshift("Morango") // ["Morango", "Maça", "Pera"]
 // console.log(frutas)
 // frutas.push("Uvaia") // ["Morango", "Maça", "Pera", "Uvaia"]
 // frutas.splice(2,0) 
-frutas.pop()
-frutas.shift
-console.log(frutas)
+// frutas.pop()
+// frutas.shift
+// console.log(frutas)
+
+// Sintaxe do forEach
+// noome da variavel.foreach(() => {})
+
+let nomes = ["Matheus", "Ana", "Igor", "João", "Alice", "Marcos"]
+
+nomes.forEach((elemento) => {
+    console.log(`Bom dia ${elemento}`)
+})
