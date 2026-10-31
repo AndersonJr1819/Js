@@ -73,18 +73,38 @@
 // let result = quadrado(64)
 // console.log(result)
 
-function triplo(n) {
-    return n * 3
-}
+// function triplo(n) {
+//     return n * 3
+// }
 
-function nomeCompleto(nome, sobrenome) {
-    return nome + " " + sobrenome
-}
+// function nomeCompleto(nome, sobrenome) {
+//     return nome + " " + sobrenome
+// }
 
-function celsiusParaFahrenheit(celsius) {
-    return celsius * 1.8 + 32
-}
+// function celsiusParaFahrenheit(celsius) {
+//     return celsius * 1.8 + 32
+// }
 
-console.log(`parça pega a visão se vai fazer pumba depois se vai fazer pa certo parceiro: ${triplo(10)}, 
-Nome Completo: ${nomeCompleto("Anderson", "Junior")}, 
-28°C em Fahrenheit é ${celsiusParaFahrenheit(28)}°F`)
+// console.log(`parça pega a visão se vai fazer pumba depois se vai fazer pa certo parceiro: ${triplo(10)}, 
+// Nome Completo: ${nomeCompleto("Anderson", "Junior")}, 
+// 28°C em Fahrenheit é ${celsiusParaFahrenheit(28)}°F`)
+
+//------------------------------------------------------------------------------------------------------------//
+
+// Sintaxe de uma arrow function 
+// const = nome da função (parametro) => {
+    // }
+
+
+// const saudacao = () => {
+//     console.log("HALLÓ")
+// }
+// saudacao()
+
+// const dobrar = (n) => n * 2
+// let result = dobrar(4)
+// console.log(result)
+
+const multiplicar = (n1, n2) => n1 *  n2
+let result = multiplicar(7,3)
+console.log(result)
