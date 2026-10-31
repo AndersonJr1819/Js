@@ -22,3 +22,4 @@ let nomes = ["Matheus", "Ana", "Igor", "João", "Alice", "Marcos"]
 nomes.forEach((elemento) => {
     console.log(`Bom dia ${elemento}`)
 })
+
