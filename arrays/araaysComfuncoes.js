@@ -6,10 +6,10 @@
 // console.log(idades[0])
 
 let frutas = ["Maça", "Pera"]
-
-frutas.oneshift("Morango") // ["Morango", "Maça", "Pera"]
-console.log(frutas)
-
-frutas.push("Uvaia") // ["Morango", "Maça", "Pera", "Uvaia"]
-frutas.splice(2,0) 
+// frutas.oneshift("Morango") // ["Morango", "Maça", "Pera"]
+// console.log(frutas)
+// frutas.push("Uvaia") // ["Morango", "Maça", "Pera", "Uvaia"]
+// frutas.splice(2,0) 
+frutas.pop()
+frutas.shift()
 console.log(frutas)
