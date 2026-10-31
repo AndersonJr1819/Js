@@ -11,5 +11,5 @@ let frutas = ["Maça", "Pera"]
 // frutas.push("Uvaia") // ["Morango", "Maça", "Pera", "Uvaia"]
 // frutas.splice(2,0) 
 frutas.pop()
-frutas.shift()
+frutas.shift
 console.log(frutas)
