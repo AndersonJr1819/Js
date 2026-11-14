@@ -38,3 +38,23 @@
 
     // })
 
+const container = document.getElementById("container")
+    
+fetch("https://rickandmortyapi.com/api/character")
+    .then((res) => res.json())
+    .then((data) =>{
+        console.log(data.results)
+        data.results.forEach(character => {
+            const card = document.createElement("div")
+            card.className = "box"
+            card.innerHTML = `
+                <img src="${character.image}"/>
+                <p>Nome: ${character.name}</p/>
+                <p>Status: ${character.status}</P>
+                <p>Specie: ${character.specie}</p>
+                <P>Type: ${character.type}</p>
+            `
+
+            container.appendChild(card)
+        })
+    })
